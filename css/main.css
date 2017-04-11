@@ -256,10 +256,99 @@ header{
 
 
 /*~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~*/
+footer{
+  margin-top: 60px;
+}
+/*~~~~~~~~~~~~~~~ BOUTONS FOOTER ~~~~~~~~~~~~~*/
+
+
+.buttonfooter, .buttonfooterdelete{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  height: auto;
+
+}
+
+.buttonfooter figure img, .buttonfooterdelete figure img{
+  width: 100%;
+  height: auto;
+}
+
+.buttonfooter figure, .buttonfooterdelete figure{
+ width: 80px;
+ margin: 0;
+}
+
+.buttonfooter p, .buttonfooterdelete p{
+  font-size: 10px;
+  font-style: italic;
+  text-align: center;
+  color: rgba(0,0,0,0.5);
+}
+
+.linebuttonfooter1, .linebuttonfooter2{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+}
 
 
 
+.buttonfooterdelete{
+  display: none;
+}
 
+/*~~~~~~~~~~~~~~~ NEWSLETTER FOOTER ~~~~~~~~~~~~~*/
+
+.footer2 p{
+  text-align: center;
+  font-style: italic;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.newsletter{
+  margin: auto;
+  width:80%;
+  display: flex;
+  align-items: center;
+}
+
+.newsletter input{
+  width: 70%;
+  border-radius: 0;
+  height: 25px;
+  font-style: italic;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  border: solid lightgrey 1px;
+
+}
+
+.newsletter a{
+  border-radius: 0;
+  border-style: solid lightgrey;
+  height: 27px;
+  width: 26px;
+  font-style: italic;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration:none;
+  border: solid lightgrey 1px;
+}
+
+.footer2 a{
+  text-decoration:none;
+ font-style: italic;
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  display: block;
+}
 
 
 
