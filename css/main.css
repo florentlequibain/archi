@@ -155,7 +155,7 @@ header{
 .header1{
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -378,6 +378,34 @@ footer{
   display: block;
 }
 
+/*~~~~~~~~~~~~~~~ END NEWSLETTER FOOTER ~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~ F O R    T A B L E T ~~~~~~~~~~~~~*/
+
+@media (min-width:768px) {
+
+.caddie{
+  float: right;
+  margin-right: 20px;
+}
+
+
+
+/*~~~~~~~~~~~~~~~ PRODUCTS ~~~~~~~~~~~~~*/
+
+
+.ligne1{
+  flex-direction:column;
+  align-items: center;
+}
+
+.imglarge{
+  width: 50%;
+  margin: none;
+}
+
+}
 
 
 
